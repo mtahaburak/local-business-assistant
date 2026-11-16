@@ -1,0 +1,38 @@
+{
+  "name": "Chai Ghar Café",
+  "tagline": "Fresh chai, warm vibes",
+  "address": "12 MM Alam Road, Gulberg III, Lahore",
+  "phone": "+92 300 1234567",
+  "email": "hello@chaighar.example",
+  "opening_hours": {
+    "Monday to Thursday": "8:00 AM - 11:00 PM",
+    "Friday and Saturday": "8:00 AM - 1:00 AM",
+    "Sunday": "10:00 AM - 11:00 PM"
+  },
+  "menu": {
+    "Hot Drinks": [
+      {"item": "Karak Chai", "price_pkr": 200},
+      {"item": "Doodh Patti", "price_pkr": 180},
+      {"item": "Kashmiri Chai", "price_pkr": 300},
+      {"item": "Cappuccino", "price_pkr": 450}
+    ],
+    "Cold Drinks": [
+      {"item": "Iced Latte", "price_pkr": 500},
+      {"item": "Mint Margarita", "price_pkr": 350},
+      {"item": "Rooh Afza Shake", "price_pkr": 400}
+    ],
+    "Food": [
+      {"item": "Chicken Sandwich", "price_pkr": 650},
+      {"item": "Paratha Roll", "price_pkr": 450},
+      {"item": "Samosa (2 pcs)", "price_pkr": 150},
+      {"item": "Chocolate Brownie", "price_pkr": 400}
+    ]
+  },
+  "policies": {
+    "wifi": "Free WiFi for all customers.",
+    "delivery": "Free delivery within 5 km on orders above PKR 1500, otherwise PKR 150.",
+    "reservations": "Call us to book a table for 4 or more people.",
+    "payment": "Cash, debit/credit cards, JazzCash and Easypaisa.",
+    "refunds": "If something is wrong with your order, tell us within 15 minutes and we will replace it."
+  }
+}

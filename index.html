@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chai Ghar Café – Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="chat">
+  <header class="chat-header">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">☕</div>
+      <div><h1>Chai Ghar Café</h1><small>Ask Chai Buddy anything</small></div>
+    </div>
+    <button id="theme" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+  </header>
+  <section id="messages" class="messages" aria-live="polite"></section>
+  <div id="quick" class="quick">
+    <button data-msg="What are your opening hours?">Opening hours</button>
+    <button data-msg="Show me the menu with prices">Menu</button>
+    <button data-msg="Where are you and how can I contact you?">Contact us</button>
+  </div>
+  <form id="form" class="composer">
+    <input id="input" type="text" placeholder="Type your question…" maxlength="500" autocomplete="off" required>
+    <button id="send" type="submit">Send</button>
+  </form>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
